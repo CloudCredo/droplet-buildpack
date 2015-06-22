@@ -1,0 +1,2 @@
+#!/bin/bash
+shopt -s dotglob && mv $1/app/* $1

@@ -1,0 +1,17 @@
+---
+language: droplet
+
+exclude_files:
+  - .git/
+  - .gitignore
+  - .gitmodules
+  - .rspec
+  - cf_spec/
+  - log/
+  - test/
+  - buildpack-packager/
+  - droplet_buildpack-*v*.zip
+
+url_to_dependency_map: []
+
+dependencies: []

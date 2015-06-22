@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+staging_info = YAML.load(File.new(File.join(ARGV.first, "staging_info.yml")))
+
+puts "---\ndefault_process_types:\n  web: #{staging_info['start_command']}"
